@@ -1,4 +1,4 @@
-# Practical Foundations for Programming Languages, Robert Harper. Muistiinpanot.
+# Practical Foundations for Programming Languages (Harper).
 
 Muistiinpanoja, joita tehty kirjan lukemisen aikana.
 Muistiinpanot jaoteltu kirjan osien mukaisesti alakansioihin.
