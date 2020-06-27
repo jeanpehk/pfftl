@@ -8,7 +8,7 @@ logiikan luonnollisen päättelyn tuloksien merkintää.
 Esimerkiksi, jos C on pääteltävissä olettaen, että A ja B pätee, voidaan päätelmää
 säännöillä R merkitä kutakuinkin: A, B |-R C (R tulisi olla "alaviitteenä",
 mutta perus markdown ei taida taipua vastaavaan).
-Johdettavuuspäätelmiä voidaan käyttää esimerkiksi merkitsemään [induktiivisesta määritelmästä](27-06-2020-induktiivinen-maaritelma.md)
+Johdettavuuspäätelmiä voidaan käyttää esimerkiksi merkitsemään [induktiivisesta määritelmästä](27-06-2020-induktiiviset-maaritelmat.md)
 johdettuja päättelyitä.
 
 Hyväksyttävyys on hypoteettisen päätelmän heikompi versio. Sen merkintä taas muistuttaa huomattavasti
