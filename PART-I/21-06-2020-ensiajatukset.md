@@ -18,3 +18,5 @@ ohjelmointikieliä. Tämä viittaisi siihen, että kirjalla halutaan yleisestiki
 hyväksyttävänä ja käytännöllisenä.
 
 Ja tokihan myös "Ei ole mitään niin käytännöllistä kuin hyvä teoria" (Lewin).
+
+Seuraavaksi: [abstraktit syntaksipuut](21-06-2020-ast.md).
