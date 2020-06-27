@@ -31,3 +31,5 @@ tyyppijärjestelmään verrattuna, on kuitenkin itselleni epäselvää ja tähä
 aikana selviä.
 
 Tiedostossa [koodit/nat.v](koodit/nat.v) on esimerkkitoteutus kirjan luonnollisia lukuja vastaavasta esimerkistä.
+
+Seuraavaksi: [hypoteettiset päätelmät](27-06-2020-hypoteettiset-paatelmat.md).
