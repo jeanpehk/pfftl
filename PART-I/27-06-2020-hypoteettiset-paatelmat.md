@@ -24,3 +24,5 @@ on merkitystä, sillä jos A on johdettavissa säännöistä R oletuksella A, mu
 johdettavuuspäätelmässä A, B |=R C ei voida sanoa mitään päätelmästä C (koska toinen oletuksista ei päde ja siten
 voidaan päätellä mitä tahansa), mutta johdettavuuspäätelmän A |=R C johtopäätöksen C voidaan sanoa pätevän.
 
+Seuraavaksi käsitellään miten [induktiiviset määritelmät](27-06-2020-induktiiviset-maaritelmat.md)
+ja johdettavuuspäätelmät voidaan yhdistää: [hypoteettiset induktiiviset määritelmät](28-06-2020-hypoteettiset-induktiiviset-maaritelmat.md).
