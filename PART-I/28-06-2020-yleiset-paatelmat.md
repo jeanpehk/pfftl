@@ -12,7 +12,7 @@ ei ole riippuvainen muuttujan paikalle sijoitetusta nimestä.
 Parametriset päätelmät määritellään vastaavasti, mutta niissä
 yleistetään muuttujien sijaan parametreja.
 
-Huomionarvoista määritelmissä on se, että kuten jo [abstrakteissa sidontapuissa](21-06-2020-abt.md)
+Huomionarvoista määritelmissä on se, että kuten jo [abstrakteissa sidontapuissa](21-06-2020-abt.md),
 erotellaan muuttujat ja parametrit toisistaan. Muuttujien ja parametrien erottamisen tarpeellisuus
 kävi itselläni jo mielessä aikaisemmin keväällä kääntäjää toteuttaessa,
 mutta siinä yksinkertaisessa toteutuksessa erottelun totesin tarpeettomaksi (lisäksi tässä
