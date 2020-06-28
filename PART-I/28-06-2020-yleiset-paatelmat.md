@@ -26,6 +26,8 @@ lähde ohjelmointikielten suunnittelussa.
 Hieman epäselväksi itselle jää tässä kohtaa, että miten esimerkiksi imperatiivisten kielten
 muuttujien toteutus tässä loogisessa kehyksessä tapahtuisi. Tässä kohtaa olettaisin, että tällöin
 muuttujia ei sellaisenaan olisi, vaan ne vastaisivat ennemminkin parametreja. Näin olettaisin, koska tällöin
-muuttujien arvoilla olisi merkitystä.
+muuttujien arvoilla olisi merkitystä. Toisaalta voi koko kehyksen pointti olla rajoittaa
+sitä, millaisia paradigmoja voidaan noudattaa, jolloin haitalliseksi koetut ajatukset
+jätettäisiin toteuttamatta.
 
 Viimeisenä ensimmäisestä osiosta käsitellään: [geneeriset induktiiviset määritelmät](28-06-2020-geneeriset-induktiiviset-maaritelmat.md).
