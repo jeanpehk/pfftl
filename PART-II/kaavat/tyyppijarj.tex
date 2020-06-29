@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{upgreek}
+\usepackage{bussproofs}
+\begin{document}
+\author{Jere Pehkonen}
+\title{Tyyppijärjestelmä}
+\maketitle
+\centerline{Tyyppijärjestelmä noudattaa kirjassa esiteltyä rakennetta.}
+\begin{prooftree}
+\AxiomC{}
+\UnaryInfC{$\Gamma$, x : $\uptau$ $\vdash$ x : $\uptau$}
+\end{prooftree}
+
+\begin{prooftree}
+\AxiomC{}
+\UnaryInfC{$\Gamma$ $\vdash$ int[i] : int }
+\end{prooftree}
+
+\begin{prooftree}
+\AxiomC{}
+\UnaryInfC{$\Gamma$ $\vdash$ str[s] : str }
+\end{prooftree}
+
+\begin{prooftree}
+\AxiomC{$\Gamma$ $\vdash$ $e_1$ : int}
+\AxiomC{$\Gamma$ $\vdash$ $e_2$ : int}
+  \BinaryInfC{$\Gamma$ $\vdash$ add($e_1$;$e_2$) : int }
+\end{prooftree}
+
+\begin{prooftree}
+\AxiomC{$\Gamma$ $\vdash$ $e_1$ : int}
+\AxiomC{$\Gamma$ $\vdash$ $e_2$ : int}
+  \BinaryInfC{$\Gamma$ $\vdash$ sub($e_1$;$e_2$) : int }
+\end{prooftree}
+
+\begin{prooftree}
+\AxiomC{$\Gamma$ $\vdash$ $e_1$ : $\uptau_1$}
+\AxiomC{$\Gamma$, x: $\uptau_1$ $\vdash$ $e_2$ : $\uptau_2$}
+  \BinaryInfC{$\Gamma$ $\vdash$ let($e_1$;x.$e_2$) : $\uptau_2$ }
+\end{prooftree}
+
+\end{document}

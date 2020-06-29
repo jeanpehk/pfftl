@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{upgreek}
+\usepackage{bussproofs}
+\begin{document}
+\author{Jere Pehkonen}
+\title{Syntaksikartta}
+\maketitle
+
+Syntaksikartta noudattaa kirjassa esiteltyä rakennetta.
+\newline
+
+\begin{tabular}{cccccc}
+\textbf{Laatu} & & & \textbf{Abstrakti muoto} & \textbf{Konkreetti muoto} & \textbf{Kuvaus}\\
+Typ & $\uptau$ & ::= & int & int & kokonaisluvut\\
+                 & & & str & str & merkkijonot\\
+Exp & $e$ & ::= & x & x & muuttuja\\
+                 & & & int[i] & i & kokonaisluku\\
+                 & & & str[s] & 's' & literaali\\
+                 & & & add($e_1$;$e_2$) & $e_1$ + $e_2$ & yhteenlasku\\
+                   & & & sub($e_1$;$e_2$) & $e_1$ - $e_2$ & vähennyslasku\\
+                 & & & let($e_1$;x.$e_2$) & let x be $e_1$ in $e_2$  & määritelmä\\
+\end{tabular}
+\end{document}
