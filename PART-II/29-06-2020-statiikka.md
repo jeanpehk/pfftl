@@ -36,6 +36,6 @@ Esimerkit kirjoitettua huomataan, että tyyppijärjestelmässä jokaisen lausekk
 abstraktille muodolle annetaan tapa, jolla se voidaan muodostaa. Osa näistä
 ovat aksioomia, eli ne voidaan muodostaa ilman hypoteeseja.
 Tyyppijärjestelmän säännöt muodostetaan
-[geneerisistä induktiivisista määritelmistä](28-06-2020-geneeriset-induktiiviset-maaritelmat.md).
+[geneerisistä induktiivisista määritelmistä](../PART-I/28-06-2020-geneeriset-induktiiviset-maaritelmat.md).
 
 Seuraavaksi käsitellään [dynamiikkaa](29-06-2020-dynamiikka.md).
