@@ -20,4 +20,5 @@ kielen sääntöjen (5.4) mukaan [abstraktille sidontapuulle](../PART-I/21-06-20
 let(str[b];x.cat(str[a];x)):
 
   -> cat(str[a];str[b]) (5.4h)
+  
   -> str[ab] \(5.4d)
