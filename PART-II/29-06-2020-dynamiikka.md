@@ -22,3 +22,6 @@ let(str[b];x.cat(str[a];x)):
   -> cat(str[a];str[b]) (5.4h)
   
   -> str[ab] \(5.4d)
+
+Näin ollaan päästy tilasta let(str[b];x.cat(str[a];x)) tilaan str[ab], joka on ohjelman
+lopullinen tila.
