@@ -8,7 +8,7 @@ on hyvin muodostettu (well-formed). Staattisen vaiheen määrittelee statiikka
 
 Kielen syntaksin osalta olennaisena kirjassa pidetään abstraktia syntaksia ja
 kirjan mukaan sen tulisikin olla kielen virallinen esitysmuoto (eikä siten esim.
-kielen standardi). Kuitenkin pidettiin tärkeänä antaa myös jonkinlainen konkreettinen
+kielen standardin). Kuitenkin pidettiin tärkeänä antaa myös jonkinlainen konkreettinen
 esitysmuoto, jotta syntaksin esitysmuoto olisi selkeämpi. Tämän vuoksi kirjassa
 käytetään esimerkkinä syntaksikarttaa (syntax chart), joka yhdistää molemmat.
 
