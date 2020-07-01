@@ -25,3 +25,5 @@ let(str[b];x.cat(str[a];x)):
 
 Näin ollaan päästy tilasta let(str[b];x.cat(str[a];x)) tilaan str[ab], joka on ohjelman
 lopullinen tila.
+
+Seuraavaksi: [tyyppiturvallisuus](01-07-2020-tyyppiturvallisuus.md)
