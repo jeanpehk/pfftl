@@ -22,11 +22,13 @@ selkeästi muuttavat lausekkeen tyyppiä, kuten vaikkapa double-tyyppisen
 arvon muuttaminen int-tyyppiseksi. Nyt palatessa aiemmin tehtyyn
 [syntaksikarttaan](kaavat/syntaksikartta.pdf) huomataan, että jos meillä
 olisi esim. operaattori, jonka abstrakti muoto olisi "int(e)", voisimme
-aivan hyvin määritellä yksinkertaisen tyyppisäännön joka olisi pysyvä (aina tyyppiä int).
-Tällöin, jotta lauseke ei olisi pysyvä tulisi meillä olla esim. double-tyyppinen lauseke,
-joka muutetaan int-tyyppiseksi. Tällöin huomataan, että vastaavan suhteen kuvaamiseen 
-tarvitaankin lausekkeen sijaan [abstrakti syntaksipuu](../PART-I/21-06-2020-ast.md).
-Tämä ratkaisee oletetun ristiriidan ja muistuttaa käsitteiden tarkkuuden tarpeellisuudesta.
+aivan hyvin määritellä yksinkertaisen tyyppisäännön joka olisi pysyvä ("int(e)" on tyyppiä int kaikilla e).
+Tällöin voi meillä aivan hyvin olla esim. double-tyyppinen lauseke argumenttina lausekkeelle "int(e)", jolloin
+lauseke on pysyvä. Näin ollen, jos suoritettaisiin muodostettua [abstraktia syntaksipuuta](../PART-I/21-06-2020-ast.md)
+säilyisi int-lausekkeen tyyppi normaalisti ja argumenttina ollut double-tyyppinen lauseke
+vain suoritettaisiin, jolloin se "katoaisi" suoritettavana olevasta syntaksipuusta ja tulokseksi
+jäisi vain koko ajan mukana ollut int-tyyyppinen lauseke. Näin ollen double-tyyppinen lauseke ei muutu
+miksikään ja ongelmana onkin ollut vain oma puutteellinen ymmärrys käytetyistä käsitteistä ja niiden tarkkuudesta.
 
 Lisäksi kirjassa tuodaan esille ajonaikaisten virheiden tarkistuksen tarpeellisuus.
 Esimerkkinä tästä annetaan klassinen jakolaskussa nollalla jakaminen, joka pääsee läpi
