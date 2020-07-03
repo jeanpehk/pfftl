@@ -34,3 +34,4 @@ Lisäksi kirjassa tuodaan esille ajonaikaisten virheiden tarkistuksen tarpeellis
 Esimerkkinä tästä annetaan klassinen jakolaskussa nollalla jakaminen, joka pääsee läpi
 tyyppitarkastuksesta.
 
+Seuraavaksi PART-III ja [ensimmäisen asteen funktiot](../PART-III/03-07-2020-ensimmaisen-asteen-funktiot.md)
