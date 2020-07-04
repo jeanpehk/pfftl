@@ -19,3 +19,5 @@ lambda (x:int) (lambda (y:int) y + x).
 Samalla voidaan myös huomata oletettava syy vain yhden argumentin käyttöön funktioiden määrittelyssä.
 Nimittäin nyt kaikki useamman argumentin ottavat lambda-abstraktiot voidaan määritellä toisten,
 vain yhden argumentin ottavien, lambda-abstraktioiden avulla.
+
+Seuraavaksi: [Godelin T](03-07-2020-godelin-T.md).
