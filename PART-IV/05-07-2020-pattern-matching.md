@@ -16,4 +16,4 @@ tyyppimääritelmistä, vaikka ne onkin jätetty merkitsemättä.
 
 Tiedostossa [koodit/Pattern.hs](koodit/Pattern.hs) on lisää pohdintoja ja kokeilua pattern matchingista.
 
-Seuraavaksi PART-V ja [induktiiviset tyypit](05-07-2020-induktiiviset-tyypit.md).
+Seuraavaksi PART-V ja [induktiiviset tyypit](../PART-V/05-07-2020-induktiiviset-tyypit.md).
