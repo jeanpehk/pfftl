@@ -4,7 +4,7 @@ Kohtuullisen selkeiden [induktiivisten tyyppien](05-07-2020-induktiiviset-tyypit
 jälkeen coinduktiiviset tyypit aiheuttavat huomattavasti enemmän vaikeuksia.
 
 Selkeänä esimerkkinä kirjassa annetaan streamit, jotka vastaisivat esim. Haskelin listoja.
-Pieni [googlettelu](05-07-2020-coinduktiiviset-tyypit.md) kuitenkaan sekoittaa
+Pieni [googlettelu](https://stackoverflow.com/questions/39854514/are-lists-inductive-or-coinductive-in-haskell) kuitenkaan sekoittaa
 ajatuksia taas lisää, sillä nyt ei tiedetäkään ovatko Haskelin listat induktiivisia,
 coinduktiivisia, molempia vaiko eivät kumpaakaan. Jos ymmärrykseni kuitenkin on oikea
 siinä, että esim. [induktiivisten tyyppien](05-07-2020-induktiiviset-tyypit.md) tulisi
