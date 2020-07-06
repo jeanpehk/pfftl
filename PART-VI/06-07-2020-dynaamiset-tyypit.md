@@ -1,1 +1,0 @@
-# Dynaamiset tyypit

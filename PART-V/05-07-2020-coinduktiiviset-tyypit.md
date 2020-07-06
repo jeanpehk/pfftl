@@ -18,4 +18,4 @@ ovat tyyppejä, jonka osat voidaan muodostaa rajatussa ajassa sen eliminaatio mu
 Lisäksi coinduktiiviset tyypit mahdollistavat äärettömien tietotyyppien muodostuksen
 tyyppijärjestelmältään vaativammissa kielissä kuten Coqissa tai Agdassa.
 
-Seuraavaksi PART-VI ja [dynaamiset tyypit](../PART-VI/06-07-2020-dynaamiset-tyypit.md)
+Seuraavaksi PART-VI ja [tyypitön lambda calculus](../PART-VI/06-07-2020-tyypiton-lambda.md)

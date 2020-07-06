@@ -23,6 +23,5 @@ for x in dirs:
       print(f'  - {f}, word length: {len(data)}')
   print('\n')
 
-print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERVIEW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
-print(f'Lens: {lens}')
-print(f'Total: {sum(lens.values())}')
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OVERVIEW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print(f'Total words: {sum(lens.values())}')
