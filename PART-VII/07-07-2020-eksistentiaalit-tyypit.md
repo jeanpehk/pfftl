@@ -30,3 +30,5 @@ ja [Luke Palmer](https://lukepalmer.wordpress.com/2010/01/24/haskell-antipattern
 
 Tiedostossa [koodit/Exist.hs](koodit/Exist.hs) on lisää pohdintaa
 ja esimerkkejä eksistentiaalisten tyyppien käytöstä.
+
+Seuraavaksi [konstruktorit ja kindit](07-07-2020-konstruktorit-kindit.md).
