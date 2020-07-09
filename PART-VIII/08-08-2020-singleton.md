@@ -13,6 +13,6 @@ käsite. Ne mahdollistavat sen, että kindit voivat riippuvat toisista tyyppi ko
 
 Singletonit on itselleni uusi käsite ja konseptin hahmottaminen pelkkien matemaattisten
 määritelmien kautta koen aika hankalaksi, joten koitetaan taas selventää ajatuksia
-koodiesimerkkien kautta: [koodit/Singleton.hs](koodit/Singleton.hs).
+koodiesimerkkien kautta: [koodit/Sing.hs](koodit/Sing.hs).
 
 Seuraavaksi PART-IX ja [dynaaminen lähetys](../PART-IX/09-07-2020-dynaaminen-lahetys.md).
