@@ -7,15 +7,6 @@ Poikkeukset ovat pelkän [virheen](10-07-2020-virheet.md) käsittelyn yleistys.
 Poikkeuksissa virheeseen liitetään arvo, joka mahdollistaa reagoinnin erilaisiin
 virheisiin poikkeuksenkäsittelijässä.
 
-Poikkeuksissa virheen tapahtuessa voidaan suorittaminen toteuttaa niin, että lausekkeen
-jossa virhe tapahtuu ei tarvitse palauttaa arvoa kuten normaalisti. Sen sijaan virheen
-tapahtuessa ja kontrollin siirtyessä käsittelijälle, hoitaa käsittelijä tilanteen
-suorittamalla vaihtoehtoisen lausekkeen. Virheellä voi olla myös mikä tahansa tyyppi,
-koska sitä ei ikinä palauteta. Voidaan huomata, että tällöin virhettä voitaisiin kutsua
-myös bottomiksi, sillä se on laskenta, jota ei koskaan suoriteta onnistuneesti (esim. Haskelissa
-undefined tai error). Lisäksi tulee lausekkeella ja sen käsittelijällä olla sama tyyppi,
-sillä kumpi tahansa niistä voi tulla ohjelmassa suoritettavaksi.
-
 Poikkeuksen käsittelyn tavoista esitellään neljä mahdollisuutta. Ensimmäinen on heikoin tapa,
 (oma "suosikki" nopeissa väsäyksissä) jossa virheeseen liitetään vain tekstiselostus virheen syystä.
 Ongelmana tässä on se, että poikkeuksen käsittelijän on hankala erottaa eri tapauksia
