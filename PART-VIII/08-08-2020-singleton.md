@@ -11,8 +11,8 @@ mahdollistavat tyyppimuuttujien rajoitetun määrittelyn ilman ad hoc mekanismej
 Lisäksi singletonien parempaa määrittelyä varten kirjassa lisätään riippuvien kindien
 käsite. Ne mahdollistavat sen, että kindit voivat riippuvat toisista tyyppi konstruktoreista.
 
-Singletonit on itselleni uusi käsite ja konseptin hahmottaminen pelkkien matemaattisten
-määritelmien kautta koen aika hankalaksi, joten koitetaan taas selventää ajatuksia
+Singletonit on itselleni uusi käsite ja konseptin hahmottaminen matemaattisten
+määritelmien kautta on aika hankalaa, joten koitetaan taas selventää ajatuksia
 koodiesimerkkien kautta: [koodit/Sing.hs](koodit/Sing.hs).
 
 Seuraavaksi PART-IX ja [dynaaminen lähetys](../PART-IX/09-07-2020-dynaaminen-lahetys.md).
