@@ -23,4 +23,4 @@ tapaa käsitellä siirtymiä. Nyt seuraavissa kappaleissa käsiteltävien poikke
 takia kuitenkin kontrollikoneista tulee tarpeellisia. Lisäksi olettaisin, että ainakin tilaa käsittelevä
 kappale voisi käsitteen vaatia.
 
-Seuraavaksi [poikkeukset](10-07-2020-poikkeukset.md).
+Seuraavaksi [virheet](10-07-2020-virheet.md).
