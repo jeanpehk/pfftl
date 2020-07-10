@@ -7,7 +7,7 @@ vaiheiden kuvauksessa käytetty rakenteellinen dynamiikka ei ole riittävä
 suoraan implementaatiossa käytettäväksi. Tämä johtuu siitä, että se
 muodostaa lausekkeen aina kokonaan uudelleen yhden askeleen suoritusvaiheessa.
 Tämän huomasin itsekin jo koodiesimerkkiä
-[tyypittömästä lambda calculuksesta](..PART-VI/06-07-2020-tyypiton-lambda.md)
+[tyypittömästä lambda calculuksesta](../PART-VI/06-07-2020-tyypiton-lambda.md)
 tehdessä, jossa dynamiikan säännöt eivät sellaisenaan olleet suoraan implementaatioon
 käännettävissä.
 
