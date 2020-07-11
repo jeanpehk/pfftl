@@ -23,4 +23,4 @@ jatkuvasti sotketa monta erillistä tilaa sekaisin tai hypitä tilasta toiseen.
 
 Tiedostosta [koodit/Cor.hs](koodit/Cor.hs) löytyy koodiesimerkkejä korutiineista.
 
-Seuraavaksi PART-XI ja [konstruktiivinen logiikka](12-07-2020-konstruktiivinen-logiikka.md).
+Seuraavaksi PART-XI ja [konstruktiivinen logiikka](../PART-XI/12-07-2020-konstruktiivinen-logiikka.md).
