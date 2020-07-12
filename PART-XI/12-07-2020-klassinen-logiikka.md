@@ -14,4 +14,4 @@ logiikassa päteviä lauseita (kuten law of excluded middle) ilman, että se aih
 ristiriitoja. Näin voidaan ajatella konstruktiivisen logiikan olevan laajempi kehys,
 johon myös klassinen logiikka voidaan asettaa.
 
-Seuraavaksi PART-XII ja [symbolit](12-07-2020-symbolit.md).
+Seuraavaksi PART-XII ja [symbolit](../PART-XII/12-07-2020-symbolit.md).
