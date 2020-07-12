@@ -15,9 +15,9 @@ Tästä seuraa, että emme voi yleisesti sanoa väitteen olevan tosi tai epätos
 Tämä voidaan huomata kirjan esimerkin mukaisesti ajattelemalla sitä, mitä tarkoittaa
 se, että meillä on epätosi väite. Jotta väite T olisi epätosi, tulee meillä olla *todistus*
 siitä, että oletuksesta T on tosi seuraa ristiriita jonkin todeksi tiedetyn kanssa.
-Ts. ~ T -> False. Tästä seuraa mielenkiintoisia eroavaisuuksia esim. klassisessa
-logiikassa olennaiseen law of excluded middleen (A \/ not A) ja tuplanegaation eliminoimiseen
-(not (not A) | A), joita ei konstruktivistisessa logiikassa voida käyttää.
+Ts. kutakuinkin T -> False. Tästä seuraa mielenkiintoisia eroavaisuuksia esim. klassisessa
+logiikassa olennaiseen law of excluded middleen (A \\/ not A) ja tuplanegaation eliminoimiseen
+(not (not A) | A), joita ei konstruktiivisessa logiikassa voida käyttää.
 Vasta yliopiston Logiikka-kurssin käyneenä ja todistuksissa usein edellä olevia
 käsitteitä käyttäneenä, tässä vaiheessa herääkin muutamia kysymyksiä. Esimerkiksi
 miten ekspressiivinen on konstruktiivinen logiikka? Vaikuttaisi, että todistusten johtaminen
@@ -26,7 +26,7 @@ koska ne johdetaan tarkemmista periaatteista. Lisäksi, koska käsitykseni mukaa
 todistajilla (theorem prover) kuitenkin pystytään hyvinkin vaikeisiin todistuksiin,
 ei näiden yo. todistusten puuttuminen välttämättä voi olla erityisen haitallista.
 
-Konstruktiisen logiikan sääntöihin nojautumalla kirjassa päästään mielenkiintoiseen
+Konstruktiivisen logiikan sääntöihin nojautumalla kirjassa päästään mielenkiintoiseen
 lopputulokseen: todistukset vastaavat niihin assosioidun tyyppistä ohjelmaa ja
 ohjelmat vastaavat todistuksia niihin assosioidun tyyppisistä propositioista.
 Tätä yhtenäistämistä kutsutaan propositiot tyyppeinä (propositions as types) prinsiipiksi
