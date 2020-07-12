@@ -4,7 +4,7 @@ Klassinen logiikassa totuutta käsitellään eri tavalla
 [konstruktiiviseen logiikkaan](12-07-2020-konstruktiivinen-logiikka.md).
 verrattuna. Jos konstruktiivisessa logiikassa toden tai epätoden määrittäminen
 vaati todistuksen, on klassisessa logiikassa kaikki propositiot joko tosia tai epätosia.
-Kirjan mukaan näiden kahden näkökulman välillä ei kuitenkaan aseteta mitään selkeää
+Kirjan mukaan näiden kahden näkökulman välillä ei kuitenkaan ole olemassa mitään selkeää
 ristiriitaa. Päinvastoin konstruktiivisen logiikan nähdään olevan ekspressiivisempi
 kuin klassinen logiikka, mikä äkkiseltään vaikuttaisi aika erikoiselta. Tätä kuitenkin
 perusteellaan siten, että konstruktiivinen logiikka pystyy esittämään enemmän
