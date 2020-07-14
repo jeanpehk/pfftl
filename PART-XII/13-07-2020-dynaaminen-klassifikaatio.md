@@ -30,4 +30,4 @@ nostajalle ja instanssiin viittaaminen ainoastaan virheiden käsittelijälle.
 Näin ollen mikään muu kuin annettu käsittelijä ei voi virhettä käsitellä,
 koska ne eivät siihen pääse käsiksi.
 
-Seuraavaksi PART-XIII ja [modernisoitu Algol](PART-XIII/14-07-2020-modernisoitu-algol.md).
+Seuraavaksi PART-XIII ja [modernisoitu Algol](../PART-XIII/14-07-2020-modernisoitu-algol.md).
