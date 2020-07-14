@@ -25,7 +25,7 @@ Nyt ongelmana on kuitenkin vielä se, että virheiden tulee olla täysin ennalta
 Täten virheiden käsittely ei ole helposti laajennettavissa toisten moduulien kanssa
 kehityksen edetessä. Parhaana tapana lopuksi mainitaankin laajennettavat summat, joissa
 edellistä tapaa parannetaan siten, että siihen voi lisätä uusia luokkia ajonaikana.
-Tätä kutsutaan dynaamiseksi klassifikaatioksi ja sitä käsitellään vielä lisää myöhemmissä
-kappaleissa.
+Tätä kutsutaan [dynaamiseksi klassifikaatioksi](../PART-XII/13-07-dynaaminen-klassifikaatio.md)
+ja sitä käsitellään vielä lisää myöhemmissä kappaleissa.
 
 Seuraavaksi: [kontinuaatiot](11-07-2020-kontinuaatiot.md).
