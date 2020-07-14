@@ -13,6 +13,6 @@ C:stä tuttuja osoittimia, joilla voidaan suoraan muokata
 muistissa olevia arvoja. Tässä esitellyssä muodossa
 kuitenkin annetaan tarkemmat rajoitukset referensseille
 ja määritellään versiot referensseistä sekä scopen sisältäville
-asennettavista että vapaille asennettaville.
+asennettaville että vapaille asennettaville.
 
 Seuraavaksi PART-XIV ja [laiska evaluointi](../PART-XIV/15-07-2020-laiska-evaluointi.md).
