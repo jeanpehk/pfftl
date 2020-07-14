@@ -12,33 +12,23 @@ kehyksessä. Määritelty modernisoitu Algol on aiemmin kirjassa esitellyn PCF:n
 laajennos väitelauseilla ja yhdellä uudella tyypillä sekä lausekkeella.
 
 Kuten aiemmin arveltiinkin, ei muuttujan käsite sellaisenaan sovellu imperatiiviseen
-kieleen. Tässä malliesimerkissä kirjassa tehdään tarkka eroitus muuttjien (kirjan
+kieleen. Tässä malliesimerkissä kirjassa tehdään tarkka erotus muuttujien (kirjan
 määritelmän mielessä) ja asennettavien (assignables) välillä. Tässä asennettavat
 vastaavat tyypillisten imperatiivisten kielten muuttujien käsitettä, eli ne esitellään
 deklaraation avulla ja niille annetaan merkitys sijoituksen ja niiden sisällön haun avulla.
 
-Kappaleen lopussa kirjassa annetaan myös mielipide muuttujan käsitteeseen. Siinä harmitellaan
-useiden ohjelmointikielten omaksumaa muuttujan käsitteen käyttöä tässä esiteltyjen asennettavien
-tilanteessa ja sen aiheuttamaa ristiriitaa ja sekaannusta kirjassa käytetyn muuttujan käsitteen
-kanssa. Itse olisin myös samaa mieltä, vaikka erityisesti en terminologiasta välitäkään. Saman
-käsitteen käyttäminen kahdessa eri tilanteessa aiheutti ainakin omalla kohdalla ohjelmointia
-aloitellessa sekaannusta ja koska asennettavat selkeästi eivät vastaa matemaattista muuttujan
-käsitettä, olisi loogisempaa antaa niille erillinen nimi. Toki on huomattava, että ei myöskään
-kirjan muuttujan määritelmä täysin vastaa matematiikan muuttujan määritelmää, joten täydellistä
-"yliotetta" ei sitä kautta voi saada, mutta selkeästi se on luonteeltaan sille hyvin läheinen.
-
-Lisäksi kielessä erotellaan muuttujien ja asennettavien lisäksi tarkasti myös puhtaat
+Kielessä erotellaan muuttujien ja asennettavien lisäksi tarkasti myös puhtaat
 (pure) lausekkeet sekä epäpuhtaat (impure) komennot. Tämä johtuu myös muuttujien ja
 asennettavien välisestä suhteesta, sillä puhtaiden lausekkeiden merkitys ei riipu
 asennettavista kun taas epäpuhtaat komennot saavat merkityksensä niistä.
-Etuna puhtaiden lausekkeiden säilyttämisessä on mm. se, että lausekkeen evaluaatiojärjestys
+Etuna puhtaiden lausekkeiden säilyttämisessä on mm. se, että lausekkeen evaluointijärjestys
 ei ole rajoitettu asennettavien käyttäytymisen vuoksi.
 
 Määritelmistä voidaan huomata kaksi kiinnostavaa pointtia aikaisempiin esimerkkeihin verrattuna.
 Ensinnäkin keskitytään väitelauseiden tyypitykseen. Tähän näkökulmaan kiinnitin itse ensimmäisen
 kerran tarkemmin huomiota kääntäjää toteuttaessa, jolloin tulin siihen tulokseen, että väitelauseilla
 ei ole tyyppejä. Tässä määritelmässä kaikki väitelauseet ovat tyypitettyjä, toisaalta ne ovat myös kaikki
-samaa tyyppiä. Kirjassa esimerkiksi [tyypittömää lambda-calculusta]() käsiteltäessä tehtiin huomio, että
+samaa tyyppiä. Kirjassa esimerkiksi [tyypittömää lambda-calculusta](../PART-VI/06-07-2020-tyypiton-lambda.md) käsiteltäessä tehtiin huomio, että
 kaikki tyypittömät kielet ovat itse asiassa yhtä ja samaa tyyppiä. En ole nyt aivan varma voitaisiinko
 tässä ottaa sama näkökulma väitelauseita vastaan (kuten kirjassa otettiin dynaamisen tyypityksen kohdalla).
 Toki väitelauseet ovat vain osa kielestä, mutta imperatiivisessa kontekstissa voidaan niiden merkitystä pitää
@@ -55,4 +45,14 @@ Tyypityshuomion ja mobiilin tyypin lisäksi joudutaan kieleen lisäämään muis
 toteuttamista varten. Tätä ei sinänsä voi suuremmaksi haitaksi sanoa, lähinnä vain matemaattisesta näkökulmasta
 tällöin suosisi mieluummin yksinkertaisempaa PCF:ää.
 
-Seuraavaksi [asennettavat referenssit](14-07-2020/asennettavat-referenssit.md).
+Kappaleen lopussa kirjassa annetaan myös mielipide muuttujan käsitteeseen. Siinä harmitellaan
+useiden ohjelmointikielten omaksumaa muuttujan käsitteen käyttöä tässä esiteltyjen asennettavien
+tilanteessa ja sen aiheuttamaa ristiriitaa ja sekaannusta kirjassa käytetyn muuttujan käsitteen
+kanssa. Itse olisin myös samaa mieltä, vaikka erityisesti en terminologiasta välitäkään. Saman
+käsitteen käyttäminen kahdessa eri tilanteessa aiheutti ainakin omalla kohdalla ohjelmointia
+aloitellessa sekaannusta ja koska asennettavat selkeästi eivät vastaa matemaattista muuttujan
+käsitettä, olisi loogisempaa antaa niille erillinen nimi. Toki on huomattava, että ei myöskään
+kirjan muuttujan määritelmä täysin vastaa matematiikan muuttujan määritelmää, joten täydellistä
+"yliotetta" ei sitä kautta voi saada, mutta selkeästi se on luonteeltaan sille hyvin läheinen.
+
+Seuraavaksi [asennettavat referenssit](14-07-2020-asennettavat-referenssit.md).
