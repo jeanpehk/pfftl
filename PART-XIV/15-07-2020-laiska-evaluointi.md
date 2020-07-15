@@ -30,4 +30,4 @@ Näin ollen voidaan sanoa, että laiskat kielet
 suosivat nimellä kutsumista funktioiden dynamiikan toteutuksessa,
 se ei vaan itsessään riitä tekemään kielestä laiskaa.
 
-[tarpeen mukainen dynamiikka](15-07-2020-tarpeen-mukainen-dynamiikka.md).
+Seuraavaksi [tarpeen mukainen dynamiikka](15-07-2020-tarpeen-mukainen-dynamiikka.md).
