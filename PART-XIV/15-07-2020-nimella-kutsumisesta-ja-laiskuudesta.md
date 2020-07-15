@@ -1,7 +1,7 @@
 # Nimellä kutsumisesta ja laiskuudesta
 
 Korjataan väärinkäsitys, joka itsellä on ollut
-kirjaa lukiessa. Kielien [dynamiikoissa](../PART-II/29-06-dynamiikka.md).
+kirjaa lukiessa. Kielien [dynamiikoissa](../PART-II/29-06-2020-dynamiikka.md).
 määritellään sääntöjä usein sekä kutsumalla arvon (call-by-value)
 että kutsumalla nimen (call-by-name) mukaisesti. Olin itse ollut
 siinä uskossa, että nimellä kutsuminen vastaisi laiskaa evaluointia,
