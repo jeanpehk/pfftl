@@ -9,8 +9,8 @@ Spekulaatiot eivät siis ole tehokkaita samalla tavalla kuin
 [futuurit](16-07-2020-futuurit.md) ovat. Spekulaatiot ovat kuitenkin
 hyvin läheisiä konseptina futuurien kanssa. Tämä voidaan huomata
 kirjassa niiden parallelisoitujen dynamiikkojen määritelmistä:
-futuurit ja spekulaatiot ovat niiden osalta identtisiä poislukien
-eliminointiehtoa (futuureissa täytyy kaikki laskennat olla suoritettuja
+futuurit ja spekulaatiot ovat niiden osalta identtisiä
+eliminointiehtoa lukuunottamatta (futuureissa täytyy kaikki laskennat olla suoritettuja
 ennen lopettamista, spekulaatiot voidaan keskeyttää).
 
 Seuraavaksi PART-XVI ja
