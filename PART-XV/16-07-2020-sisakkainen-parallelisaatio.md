@@ -19,7 +19,7 @@ parallelisaation toteuttamisen jo valmiiksi parallelisoidussa laskennassa.
 Merkinnöistä voidaan huomata, että niissä jätetään huomiotta varsinaisen
 toteutuksen kannalta olennaisia tekijöitä. Esimerkiksi laskentojen
 määrää ei erikseen rajoiteta käytössä olevilla prosessoreilla. Tässä keskitytäänkin
-siis parallelisaation toteuttamisen malleihin kielten tasolla sekä laskennaan
+siis parallelisaation toteuttamisen malleihin kielten tasolla sekä laskentaan
 kuluvan ajan arviointia teoreettisesta näkökulmasta.
 
 Seuraavaksi [futuurit](16-07-2020-futuurit.md).
