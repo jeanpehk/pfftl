@@ -21,4 +21,4 @@ kommunikaatioksi. Siinä ei kommunikaatio ole blokkaavaa, vaan esimerkiksi
 viestin lähettäjän ei tarvitse jäädä odottamaan varmistusta siitä että
 viesti on vastaanotettu.
 
-Seuraavaksi []().
+Seuraavaksi PART-XVII ja [komponentit ja linkkaus](../PART-XVII/18-07-2020-komponentit-ja-linkkaus.md).
