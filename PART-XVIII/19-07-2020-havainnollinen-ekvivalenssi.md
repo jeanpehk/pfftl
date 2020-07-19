@@ -14,7 +14,7 @@ Voitaisiin siis ajatella, että havainnollinen ekvivalenssi pohjautuu
 lausekkeiden suorittamisen seurauksena saatujen arvojen havainnointiin.
 
 Havainnollinen ekvivalenssi on hyödyllinen työkalu, mutta siinä
-on edelleen selkeä puute kuten edellisen kappaleen määritelmistä voidaan
+on edelleen selkeä puute, kuten edellisen kappaleen määritelmistä voidaan
 huomata: lausekkeet tulee olla suoritettavissa johonkin lopulliseen arvoon.
-Tätä puutetta voidaan huomioida tuomalla seuraavaksi käsiteltävällä
+Tätä puutetta voidaan huomioida seuraavaksi käsiteltävällä
 [loogisella ekvivalenssilla](19-07-2020-looginen-ekvivalenssi.md).
