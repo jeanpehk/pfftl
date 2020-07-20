@@ -31,4 +31,4 @@ Onkin mielenkiintoista huomata miten laajoja konsepteja toteuttava kieli saadaan
 määritelmien avulla. Tämä saakin pohtimaan miten suuri osa esimerkiksi funktionaalisten kielten toteutuksista
 on todellisuudessa pelkkää syntaksia, joka on tiivistettävissä yksinkertaisempaan muotoon.
 
-Seuraavaksi: [Godelin T](03-07-2020-godelin-T.md).
+Seuraavaksi: [Gödelin T](03-07-2020-godelin-T.md).
