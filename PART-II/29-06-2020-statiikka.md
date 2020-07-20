@@ -29,7 +29,8 @@ ympäristössä ne esiintyvät.
 Tehdään nyt esimerkin vuoksi määritelmä omalle kielelle vastaavasti kuin kirjassa.
 Kieli on tarkoituksella hyvin yksinkertainen ja lähes vastaava kuin kirjan esimerkissä.
 Tarkoituksena on lisätä ominaisuuksia kunhan kirjassa niitä esitellään ja tehdä
-jonkinlainen konkreettinen toteutus myöhemmin.
+jonkinlainen konkreettinen toteutus myöhemmin (PÄIVITYS 20.07.2020: olisi ollut liikaa työtä,
+tehtiin sen sijaan muutamia esimerkkitoteutuksia kirjan kielistä).
 Esimerkki oman kielen [syntaksikartasta](kaavat/syntaksikartta.pdf) ja
 [tyyppijärjestelmästä](kaavat/tyyppijarj.pdf)
 Esimerkit kirjoitettua huomataan, että tyyppijärjestelmässä jokaisen lausekkeen
