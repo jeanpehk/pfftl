@@ -7,7 +7,7 @@ tuntemattomia objekteja, jotka kuuluvat tiettyyn joukkoon. Täten ne eivät
 vastaa yleisesti ohjelmointikielissä käytettyjä muuttujia.
 
 Yleisiä päätelmiä on kahdentyyppisiä: geneerisiä ja parametrisiä.
-Geneeriset johdettavuuspäätelmät vastaavat sitä, että päättely
+Geneeriset johdettavuus päätelmät vastaavat sitä, että päättely
 ei ole riippuvainen muuttujan paikalle sijoitetusta nimestä.
 Parametriset päätelmät määritellään vastaavasti, mutta niissä
 yleistetään muuttujien sijaan parametreja.
