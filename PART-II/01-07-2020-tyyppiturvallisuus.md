@@ -13,8 +13,9 @@ olevan sallittu operaatio, jolloin kieli edelleen olisi tyyppiturvallinen.
 Formaalimmin tyyppiturvallisuus määritellään termien pysyvyys (preservation)
 ja kehitys (progress) avulla. Tiivistetysti nämä voitaisiin esittää siten, että
 jos kielen tyypitys on pysyvä, niin jokainen ohjelman suorituksen vaihe säilyttää
-lausekkeen tyypin. Kehitys taas vastaa sitä, että joko lauseke on jokin arvo tai
+lausekkeen tyypin. Kehitys taas vastaa sitä, että hyvin tyypitetty lauseke on joko jokin arvo tai
 että on olemassa jokin suoritus, jolla lauseke voi siirtyä uuteen tilaan.
+Tyyppiturvallisuus saadaan näiden käsitteiden yhdistämisestä.
 
 Pysyvyydestä ensin huomataan näennäinen ristiriita tyypillisten ohjelmointikielten
 kanssa. On olemassa esim. paljon operaattoreita (funktioita), jotka
@@ -30,8 +31,13 @@ vain suoritettaisiin, jolloin se "katoaisi" suoritettavana olevasta syntaksipuus
 jäisi vain koko ajan mukana ollut int-tyyyppinen lauseke. Näin ollen double-tyyppinen lauseke ei muutu
 miksikään ja ongelmana onkin ollut vain oma puutteellinen ymmärrys käytetyistä käsitteistä ja niiden tarkkuudesta.
 
-Lisäksi kirjassa tuodaan esille ajonaikaisten virheiden tarkistuksen tarpeellisuus.
-Esimerkkinä tästä annetaan klassinen jakolaskussa nollalla jakaminen, joka pääsee läpi
-tyyppitarkastuksesta.
+Kirjassa tuodaan esille myös tyyppitarkastuksen puutteita, sillä
+tyyppisäännöt eivät ole aina itsessään riittäviä ajonaikaisten virheiden eliminoimiseen.
+Tästä annetaan esimerkkinä jakolaskussa nollalla jakamisen tapaus, jossa emme voi
+tyyppisääntöjen perusteella niitä eliminoida (ainakaan ilman, että samalla
+eliminoitaisiin huomattava määrä ohjelmia). Tämä johtuu siitä, että emme aina voi
+käännösaikana tietää, evaluoituuko lauseke nollaksi. Tätä voidaan korjata määrittelemällä
+[dynamiikkaan](29-06-2020-dynamiikka.md) tilat, joissa ajonaikaiset tarkistukset on suoritettava. Tällöin voidaan
+virheet huomata ja niihin reagoida turvallisesti.
 
 Seuraavaksi PART-III ja [ensimmäisen asteen funktiot](../PART-III/03-07-2020-ensimmaisen-asteen-funktiot.md)
