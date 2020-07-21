@@ -1,21 +1,30 @@
 # Coinduktiiviset tyypit
 
-Kohtuullisen selkeiden [induktiivisten tyyppien](05-07-2020-induktiiviset-tyypit.md)
-jälkeen coinduktiiviset tyypit aiheuttavat huomattavasti enemmän vaikeuksia.
+Coinduktiiviset tyypit ovat [induktiivisten tyyppien](05-07-2020-induktiiviset-tyypit.md)
+ohella toinen rekursiivisten tyyppien tärkeä muoto. Coinduktiiviset tyypit eroavat
+induktiivisista tyypeistä mm. niiden esittelymuodoissa.
+Jos induktiiviset tyypit muodostettiin rajatusta määrästä esittelymuotoja, niin coinduktiiviset
+tyypit taas rakennetaan generaattorien avulla.
 
-Selkeänä esimerkkinä kirjassa annetaan streamit, jotka vastaisivat esim. Haskelin listoja.
-Pieni [googlettelu](https://stackoverflow.com/questions/39854514/are-lists-inductive-or-coinductive-in-haskell) kuitenkaan sekoittaa
-ajatuksia taas lisää, sillä nyt ei tiedetäkään ovatko Haskelin listat induktiivisia,
-coinduktiivisia, molempia vaiko eivät kumpaakaan. Jos ymmärrykseni kuitenkin on oikea
-siinä, että esim. [induktiivisten tyyppien](05-07-2020-induktiiviset-tyypit.md) tulisi
-olla rajoitettuja, ei Haskelin tyypit voisikaan laiskuuden takia olla induktiivisia.
-Joka tapauksessa voidaan kuitenkin muistaa, että selkeästi Haskelin tyyppijärjestelmä mahdollistaa hyvin
-samankaltaisten tyyppien luomisen vaikka formaalisti ne eivät täysin vastaavia olisikaan.
+Esimerkkinä coinduktiivisista tyypeistä tarjotaan streamit, jotka ovat tässä määritelmässä
+loputon lista luonnollisia lukuja. Niille saadaan toiminnot hd ja tail, joilla voidaan joko
+ottaa listan ensimmäinen alkio tai kaikki muut. Tämä aiheuttaakin hieman sekaannusta verrattaessa
+määritelmiä Haskeliin, josta löytyy listoille (jotka voivat myös olla ikuisia) vastaavat funktiot.
+Pieni googlettelu paljastaa, että tämä on aiheuttanut keskustelua myös mm.
+[stackoverflowssa](https://stackoverflow.com/questions/39854514/are-lists-inductive-or-coinductive-in-haskell),
+mutta mielipiteitä tuntuu olevan niin monia, että on vaikeaa saada selkeää vastausta. Kuitenkin
+Haskelin tyyppijärjestelmä vaikuttaisi olevan sellainen, että tarkat kirjojen määritelmiä vastaavat
+tyyppimääritelmät eivät ole mahdollisia.
 
-Jos coinduktiivisia tyyppejä koitetaan hahmotella intuition avulla kirjojen määritelmien
-ja muun lukemisen perusteella päädytään kutakuinkin seuraavaan: coinduktiiviset tyypit
-ovat tyyppejä, jonka osat voidaan muodostaa rajatussa ajassa sen eliminaatio muodoista.
-Lisäksi coinduktiiviset tyypit mahdollistavat äärettömien tietotyyppien muodostuksen
-tyyppijärjestelmältään vaativammissa kielissä kuten Coqissa tai Agdassa.
+Intuition tasolla itselle on helpointa ajatella coinduktiivisia tyyppejä vertaamalla niitä induktiivisiin,
+niiden ollessa tietyllä tavalla toistensa vastakohtia. 
+Induktiiviset tyypit muodostetaan "sisältäpäin" rakentamalla yksi kerrallaan laajempaa kokonaisuutta.
+Coinduktiivisissa tyypeissä taas aloitetaan "ulkoapäin". Niissä meillä on valmiina laajin mahdollinen kokonaisuus
+tyypille (joka on usein loputon), josta sitten voimme lähteä yksi kerrallaan palasia purkamaan.
+
+Coinduktiivisia tyyppejä voi myös ajatella ohjelmien kannalta, joiden ei ole tarkoituskaan lopettaa suoritustaan
+(tai suorituksen loppumisaikaa ei ennakolta tiedetä). Tällaisia olisivat esimerkiksi käyttäjän kanssa jatkuvassa
+vuorovaikutuksessa olevat ohjelmat. Coinduktiivisten tyyppien avulla voidaan tällöin määritellä luotettavasti
+ohjelmalle suoritettavat tehtävät ilman, että tarvitsee huolehtia tulevasta.
 
 Seuraavaksi PART-VI ja [tyypitön lambda calculus](../PART-VI/06-07-2020-tyypiton-lambda.md)
