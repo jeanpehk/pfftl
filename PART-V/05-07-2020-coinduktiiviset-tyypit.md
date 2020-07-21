@@ -12,9 +12,11 @@ ottaa listan ensimmäinen alkio tai kaikki muut. Tämä aiheuttaakin hieman seka
 määritelmiä Haskeliin, josta löytyy listoille (jotka voivat myös olla ikuisia) vastaavat funktiot.
 Pieni googlettelu paljastaa, että tämä on aiheuttanut keskustelua myös mm.
 [stackoverflowssa](https://stackoverflow.com/questions/39854514/are-lists-inductive-or-coinductive-in-haskell),
-mutta mielipiteitä tuntuu olevan niin monia, että on vaikeaa saada selkeää vastausta. Kuitenkin
-Haskelin tyyppijärjestelmä vaikuttaisi olevan sellainen, että tarkat kirjojen määritelmiä vastaavat
-tyyppimääritelmät eivät ole mahdollisia.
+mutta mielipiteitä tuntuu olevan niin monia, että on vaikeaa saada selkeää vastausta.
+Conor McBriden [artikkelin](http://strictlypositive.org/ObsCoin.pdf) mukaan tässä ongelmana vaikuttaisi olevan Haskelin
+tarpeen mukaisen dynamiikan (käsitelty myöhemmässä [muistiinpanossa](../PART-XIV/15-07-2020-tarpeen-mukainen-dynamiikka.md)) toteutus.
+Kaikki laskenta toteutetaan tarpeen mukaan, mikä mahdollistaa tietyllä tapaa kaiken datan käsittämisen coinduktiivisena, jolloin
+induktiivisen ja coinduktiivisen erottaminen ei ole enää kovin mielekästä.
 
 Intuition tasolla itselle on helpointa ajatella coinduktiivisia tyyppejä vertaamalla niitä induktiivisiin,
 niiden ollessa tietyllä tavalla toistensa vastakohtia. 
