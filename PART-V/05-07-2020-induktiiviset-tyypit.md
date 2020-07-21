@@ -1,10 +1,15 @@
 # Induktiiviset tyypit
 
-Induktiivinen tyyppi on kirjan mukaan toinen rekursiivisen tyypin tärkeistä muodoista.
+Induktiivinen tyyppi on toinen rekursiivisten tyyppien tärkeistä muodoista.
 Induktiiviset tyypit ovat tyyppejä, jotka voidaan muodostaa rajatuilla yhdistelmillä
-sen alustavista muodoista. Yksinkertaisena esimerkkinä kirjassa annetaan jo aikaisemminkin
-esimerkkinä käytetty luonnollisten lukujen esimerkki, josta myös tein pienen [koodipätkän](../PART-I/koodit/nat.v)
-aikaisemmassa muistiinpanossa. Huomataan, että Coq käyttää jo tietotyyppien luonnissa
-nimeä "Inductive", joka myös selkeyttää asioita.
+sen alustavista muodoista. Esimerkkinä tästä annetaan klassisesti luonnolliset luvut.
+Ne voidaan muodostaa kahdella esittelymuodolla z : nat ja s(e : nat). Luonnollisten
+lukujen määrittely esitetään kuitenkin nyt vain induktiivisten tyyppien erikoismuotona.
+Meidän ei siis tarvitse määritellä niitä erikseen, vaan ne voidaan
+johtaa yleisistä induktiivisten tyyppien muodoista! Kirjassa jatketaan siis samalla
+idealla erillisten konseptien esittämisestä laajemmassa kehyksessä.
+
+Tiedostossa [nat.txt](nat.txt) on esimerkin vuoksi johdettu luonnollinen luku s(z) kirjan määritelmien
+pohjalta (käytetty tekstitiedostoa helpomman esitysmuodon vuoksi markdowniin verrattuna).
 
 Seuraavana rekursiivisen tyypin toinen tärkeä muoto: [coinduktiiviset tyypit](05-07-2020-coinduktiiviset-tyypit.md).
