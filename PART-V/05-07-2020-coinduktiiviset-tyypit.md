@@ -29,4 +29,6 @@ Coinduktiivisia tyyppejä voi myös ajatella ohjelmien kannalta, joiden ei ole t
 vuorovaikutuksessa olevat ohjelmat. Coinduktiivisten tyyppien avulla voidaan tällöin määritellä luotettavasti
 ohjelmalle suoritettavat tehtävät ilman, että tarvitsee huolehtia tulevasta.
 
+Tiedostossa [koodit/coind.v](koodit/coind.v) on yksinkertaisia esimerkkitoteutuksia coinduktiivisuudesta.
+
 Seuraavaksi PART-VI ja [tyypitön lambda calculus](../PART-VI/06-07-2020-tyypiton-lambda.md)
