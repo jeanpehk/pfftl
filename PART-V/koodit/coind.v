@@ -14,14 +14,14 @@ CoInductive nstream :=
 (* Muutama yksinkertainen funktio streameilla testailua varten. *)
 
 Definition hd (ns : nstream) : nat :=
-	match ns with
-	| cons n ns => n
-	end.
+  match ns with
+  | cons n ns => n
+  end.
 
 Definition tail (ns : nstream) : nstream :=
-	match ns with
-	| cons n ns => ns
-	end.
+  match ns with
+  | cons n ns => ns
+  end.
 
 (* Jatkuva stream 0,0,0,.. *)
 CoFixpoint zero : nstream := cons 0 zero.
