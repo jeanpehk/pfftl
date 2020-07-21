@@ -29,7 +29,7 @@ CoFixpoint zero : nstream := cons 0 zero.
 (* Jatkuva stream 1,2,3,1,2,.. *)
 CoFixpoint onetwothree : nstream := cons 1 (cons 2 (cons 3 onetwothree)).
 
-(* Vielä muutamata todistus, että ollaan tehty jotain jokseenkin järkevää.. *)
+(* Vielä muutama todistus, että ollaan tehty jotain jokseenkin järkevää. *)
 
 Example zerohd: hd zero = 0.
 Proof. reflexivity. Qed.
