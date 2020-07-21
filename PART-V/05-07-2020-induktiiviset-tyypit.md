@@ -12,4 +12,4 @@ idealla erillisten konseptien esittämisestä laajemmassa kehyksessä.
 Tiedostossa [nat.txt](nat.txt) on esimerkin vuoksi johdettu luonnollinen luku s(z) kirjan määritelmien
 pohjalta (käytetty tekstitiedostoa helpomman esitysmuodon vuoksi markdowniin verrattuna).
 
-Seuraavana rekursiivisen tyypin toinen tärkeä muoto: [coinduktiiviset tyypit](05-07-2020-coinduktiiviset-tyypit.md).
+Seuraavana rekursiivisten tyyppien toinen tärkeä muoto: [coinduktiiviset tyypit](05-07-2020-coinduktiiviset-tyypit.md).
