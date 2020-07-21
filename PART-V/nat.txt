@@ -1,0 +1,24 @@
+Johdetaan esimerkin vuoksi luonnollista lukua s(z)
+vastaava määritelmä kirjan kappaleiden määritelmien avulla.
+Kaikissa määritelmissä oletetaan sama tyyppikonteksti.
+
+|-
+------------                                --  (11.1a)
+|- () : unit
+----------------------                      --  (12.1b)
+|- l * () : unit + nat
+------------------------                    --  (15.1a)
+|- foldnat(l * ()) : nat
+-----------------------------------         --  (12.1c)
+|- r * foldnat(l * ()) : unit + nat
+-------------------------------------       --  (15.1a)
+|- foldnat(r * foldnat(l * ())) : nat
+
+Saadaan siis selkeästi rekursiivinen rakenne, jossa
+hyödynnetään sum-tyyppejä rakenteen määrittelyssä.
+Määritelmä avaa myös luonnollisten lukujen määritelmän
+luonnetta: määrittelyillä ei ole mitään varsinaista
+sisältöä erityisten arvojen muodossa. Vain rakenteella
+on merkitystä, joten lopulta ei ole väliä missä muodossa
+se esitetään. Tarvitaan vain rakenteen aloittava muoto
+(foldnat(l*()), z, O, ...) ja sitä jotenkin toistava muoto.
