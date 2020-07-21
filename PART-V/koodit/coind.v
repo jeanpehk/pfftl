@@ -1,12 +1,12 @@
 (* Kokeillaan muutamia coinduktiivisia tyyppejä Coqilla, kerran
-	 Haskelissa ei vastaavat tyypit aivan luonnistu.
+   Haskelissa ei vastaavat tyypit aivan luonnistu.
    Lisäksi on tullut kesän aikana Logical Foundationsia
-	 (https://softwarefoundations.cis.upenn.edu/lf-current/index.html)
+   (https://softwarefoundations.cis.upenn.edu/lf-current/index.html)
    läpikäytyä, joten ei aivan hukassa olla.. *)
 
 (* Kirjan mukaisesti luonnolisten lukujen stream.
    Coq erottelee induktiiviset ja coinduktiiviset tyypit selkeästi jo
-	 määrittelyjen nimissä. *)
+   määrittelyjen nimissä. *)
 
 CoInductive nstream :=
   | cons : nat -> nstream -> nstream.
