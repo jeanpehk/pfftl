@@ -1,0 +1,23 @@
+Tehdään esimerkin vuoksi yksinkertainen johto polymorfiselle
+identiteetti funktiolle. Tyyppikontekstit jätetty merkitsemättä
+selkeyden vuoksi.
+
+Polymorfiseen funktioon tarvitaan sääntöä (20.2d),
+muodostetaan sitä vastaava funktio ja tarkistetaan sen jälkeen,
+että myös ehdot toteutuvat:
+
+Lam(t.lam[t](x.x))
+
+Eli meillä olisi tilanne, jossa tyyppi t on tyyppimuuttuja ja lauseke e
+funktio lam([t](x.x)). Nämä ovat siis ehdot, jotka tulee täyttää säännön
+20.2d mukaisesti.
+
+Muuttujan t voidaan todeta olevan ok suoraan säännöstä 20.1a.
+Lauseke e voidaan todeta olevan ok säännön 20.2b nojalla ja
+sen tyypiksi saadaan arr(t;t).
+
+Nyt tilanteessa, jossa meillä on t käytössä, saadaan applikaation
+kautta arr(t;t) t -> t. Näin ollen voidaan todeta funktion olevan ok
+säännön 20.2d mukaisesti ja saadaan tyypitys Lam(t.lam[t](x.x)) : all(t.t).
+
+Ts. saataisiin seuraavaa vastaava funktio ja tyypitys: (\x -> x) :: forall t. t -> t.
