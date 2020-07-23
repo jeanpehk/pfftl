@@ -19,7 +19,7 @@ data F a b = F a b
 -- Maybe :: * -> *
 -- Jossa * vastaa tyyppiä.
 
--- Koska tähän mennessä ei kirjassa konstruktoreita oltu käytetty ollenkaan,
+-- Koska tähän mennessä ei kirjassa konstruktoreita oltu käytetty,
 -- voidaan lisäksi pohtia algebraisten tietotyyppien esittämistä pelkillä korkeamman
 -- asteen funktioilla.
 -- Käytetään referenssinä Koopmanin, Plasmeijerin ja Jansenin Functional Pearlia:
@@ -28,7 +28,7 @@ data F a b = F a b
 -- Toteutukset on tehty Church enkoodauksella ja vastaavat yo.
 -- linkissä esitettyjä toteutuksia.
 
--- Booleanit:
+-- Booleanit, kahdella arvo konstruktorilla true ja false:
 
 true :: a -> b -> a
 true = \t f -> t
@@ -60,14 +60,15 @@ test = do
   putStrLn $ show $ snd' $ a -- -> "two"
 
 -- Esitettyjen esimerkkien seuraukset on aika mielenkiintoiset. Olen itse ajatellut,
--- että funktionaalisten ohjelmointikielien toteutus olisi todella haastavaa (mitä
--- en sinänsä vieläkään olisi kiistämässä) ja vaatisi hurjan panostuksen. Tässä
--- voidaan kuitenkaan huomata, miten vaikeampia konsepteja pystytään redusoimaan
+-- että funktionaalisten ohjelmointikielien toteutus olisi todella haastavaa
+-- ja vaatisi ison ajallisen panostuksen.
+-- Tässä voidaan kuitenkaan huomata, miten vaikeampia konsepteja pystytään redusoimaan
 -- yksinkertaisempiin, jolloin toteutus onkin todellisuudesssa huomattavasti
 -- selkeämpää. Esim. jos algebraiset tietotyypit voidaan esittää pelkästään
 -- korkeamman asteen funktioina, tulee tietotyyppien luonnista lähinnä syntaksia.
 -- Periaatteessa riittäisi siis, että kieleen toteutetaan pelkästään korkeamman
--- asteen funktiot, jolloin meillä olisi käytössä jo hyvinkin ekspressiivinen kieli.
+-- asteen funktiot, jolloin meillä olisi käytössä jo hyvinkin ekspressiivinen kieli
+-- (kuten esim. esitellyt lambda calculus ja System F).
 
 -- Tämän kansion tiedostossa "pair.js" on myös hyvin vuoksi tehdyt vastaavat esimerkit
 -- javascriptillä.
