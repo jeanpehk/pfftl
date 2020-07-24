@@ -2,17 +2,30 @@
 
 Singletonit liittyvät vahvasti aiemmin käsiteltyihin
 [konstruktoreihin ja kindeihin](../PART-VII/07-07-2020-konstruktorit-kindit.md).
-Singletoneissa jokaisella kindin k tyyppikonstruktorilla c, on myös kind S(c)
-(tässä S(c) vastaa singletonia). Singletonien voidaan ajatella luokittelevan
-konstruktorit, jotka vastaavat kindia c. Lisäksi kirjan mukaan singleton kindit
-mahdollistavat tyyppimuuttujien rajoitetun määrittelyn ilman ad hoc mekanismeja
-(olettaisin, että tässä viitataan tyyppiluokkien kaltaisiin ratkaisuihin).
+Singletonien käsite johdetaan loogisesti esittämällä ongelma ja tarjoamlla
+singletonit luonnollisena ratkaisuna siihen.
 
-Lisäksi singletonien parempaa määrittelyä varten kirjassa lisätään riippuvien kindien
-käsite. Ne mahdollistavat sen, että kindit voivat riippuvat toisista tyyppi konstruktoreista.
+Esimerkkinä käytetään muuttujien sidontaa let-lauseilla, joka pystytään
+kuvamaan myös [korkeamman asteen funktioilla](../PART-III/03-07-2020-korkeamman-asteen-funktiot.md).
+Luonnollisesti sama muuttujien sidonta haluttaisiin nyt esittää myös tyyppitasolla.
+Tämä ei kuitenkaan toimi vastaavasti käyttämällä tyyppiabstraktiota ja -applikaatiota.
+Ongelmana tässä tulee tieto, jota saadaan irti tyyppimuuttujasta. Jotta jatkettaisiin
+samoilla periaatteilla mitä kirjassa on esitetty, tulisi lausekkeen olla määriteltävissä
+pelkästään sen tyyppimuuttujan tarjoamien tietojen perusteella. Tyyppimuuttuja kuitenkin
+kertoo vain itsensä *kindin*. Tällöin esimerkiksi [product](../PART-IV/04-07-2020-product-tyypit.md)
+ja [sum](../PART-IV/04-07-2020-sum-tyypit.md) -tyypeillä voi olla
+sama kind, jolloin ei tiedetä mitkä operaatiot tyyppiabstraktion lausekkeessa on suoritettavissa.
 
-Singletonit on itselleni uusi käsite ja konseptin hahmottaminen matemaattisten
-määritelmien kautta on aika hankalaa, joten koitetaan taas selventää ajatuksia
+Ratkaisuna tähän tarjotaan singletonit. Singletonit mahdollistavat tyyppimuuttujan
+*identiteetin* selvittämisen käännösaikana. Tyyppiabstraktio voitaisiin
+nyt esittää lausekkeena "Lam(t::S(tau).e)[tau]" aiemman lausekkeen "Lam(t.e)[tau]" sijaan.
+Singleton S(tau) esitellään riippuvana kindina tai vaihtoehtoisesti kindien perheenä (family of kinds), josta voidaan indeksoida
+yksittäisiä instansseja niiden konstruktorien avulla.
+
+Riippuvan kindin käsite pistää ajattelemaan taas jo hieman aiemmin pohdittua riippuvaa tyypitystä.
+Haskelissa singletoneja onkin käytetty mallintamaan riippuvan tyypityksen tekniikoita: [https://github.com/goldfirere/singletons](https://github.com/goldfirere/singletons).
+
+Koitetaan taas vielä selventää ajatuksia
 koodiesimerkkien kautta: [koodit/Sing.hs](koodit/Sing.hs).
 
 Seuraavaksi PART-IX ja [dynaaminen lähetys](../PART-IX/09-07-2020-dynaaminen-lahetys.md).
