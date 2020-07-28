@@ -41,4 +41,4 @@ Toisin kuin klassisessa logiikassa, jossa "jumalan mielen logiikkana" voimme ain
 väitteelle on olemassa todistus tai kumous, vaikka sitä emme itse osaisikaan näyttää.
 
 Käsitellään seuraavaksi konstruktiivisen logiikan ja ohjelmointikielet yhdistävä
-[propositiot tyyppinä](28-07-2020-propositiot-tyyppinä.md) -prinsiippi.
+[propositiot tyyppinä](28-07-2020-propositiot-tyyppina.md) -prinsiippi.
