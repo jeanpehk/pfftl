@@ -1,46 +1,44 @@
 # Konstruktiivinen logiikka
 
-Konstuktiivisen logiikan taustana esitellään matematiittiset
-todistukset sosiaalisena konstruktina, jossa ihmisten kesken määritellään
-mitkä ovat riittävät säännöt valideille argumenteille. Tässä ei vielä ole
-mitään erikoista (eikä varmaan ole tarkoituskaan), sillä matematiikka selkeästi
-pohjautuu ihmisten määrittelemille aksioomille. Lisäksi tuodaan
-esille se, että matematiikassa tulee aina olemaan ratkaisemattomia väitteitä,
-joten emme voi odottaa väitteen aina olevan joko tosi tai epätösi. Tästä
-päästään konstruktiivisen logiikan totuuden määritelmään, joka eroaa klassisen
-logiikan vastaavasta.
+Konstruktiivinen logiikka esitellään kirjassa epämääräisesti termillä
+"logiikkaa kuin ihmiset merkitsisivät" (logic as if people matter), jonka
+olen ennenkin kuullut, mutta joka ei tunnu tietämättömälle ollenkaan avaavan
+sen sisältöä. Vastaavasti myöhemmin käsiteltävää [klassista logiikkaa](12-07-2020-klassinen-logiikka.md)
+verrataan "jumalan mielen logiikkana" (the logic of the mind of god").
+Näihin kuitenkin saadaan selvyys tutustumalla tarkemmin niiden perustoihin.
 
-Konstruktiivisessa logiikassa väitteen V totuus vaatii todistuksen V:stä.
-Tästä seuraa, että emme voi yleisesti sanoa väitteen olevan tosi tai epätosi.
-Tämä voidaan huomata kirjan esimerkin mukaisesti ajattelemalla sitä, mitä tarkoittaa
-se, että meillä on epätosi väite. Jotta väite T olisi epätosi, tulee meillä olla *todistus*
-siitä, että oletuksesta T on tosi seuraa ristiriita jonkin todeksi tiedetyn kanssa.
-Ts. kutakuinkin T -> False. Tästä seuraa mielenkiintoisia eroavaisuuksia esim. klassisessa
-logiikassa olennaiseen law of excluded middleen (A \\/ not A) ja tuplanegaation eliminoimiseen
-(not (not A) | A), joita ei konstruktiivisessa logiikassa voida käyttää.
-Vasta yliopiston Logiikka-kurssin käyneenä ja todistuksissa usein edellä olevia
-käsitteitä käyttäneenä, tässä vaiheessa herääkin muutamia kysymyksiä. Esimerkiksi
-miten ekspressiivinen on konstruktiivinen logiikka? Vaikuttaisi, että todistusten johtaminen
-on selkeästi hankalampaa. Toisaalta todistukset, jotka pystytään johtamaan ovat arvokkaampiaa,
-koska ne johdetaan tarkemmista periaatteista. Lisäksi, koska käsitykseni mukaan useilla teoreema
-todistajilla (theorem prover) kuitenkin pystytään hyvinkin vaikeisiin todistuksiin,
-ei näiden yo. todistusten puuttuminen välttämättä voi olla erityisen haitallista.
+Konstruktiivinen logiikka käsittelee väitelauseiden totuutta eri tavalla, joskin hyvin
+selkeän yksinkertaisesti, kuin normaalisti on klassisen logiikan kautta totuttu.
+Konstruktiivisessa logiikassa nimittäin on lause tosi tasan silloin kuin sille on todistus,
+ja epätosi silloin kun sille on kumous (refutation).
+Tällä yksinkertaisella ja intuitiivisella ajatuksella on useampia mielenkiintoisia seurauksia.
+Esimerkiksi klassisessa logiikassa yleiset law of excluded middle (LOEM, A \\/ ~ A) ja negaation eliminaatio
+(~ (~ A) = A) eivät konstruktiivisessa logiikassa ole valideja.
 
-Konstruktiivisen logiikan sääntöihin nojautumalla kirjassa päästään mielenkiintoiseen
-lopputulokseen: todistukset vastaavat niihin assosioidun tyyppistä ohjelmaa ja
-ohjelmat vastaavat todistuksia niihin assosioidun tyyppisistä propositioista.
-Tätä yhtenäistämistä kutsutaan propositiot tyyppeinä (propositions as types) prinsiipiksi
-ja se on keskeinen tekijä ohjelmointikielten teoriassa.
+Tämä aiheuttaa, vasta yliopiston Logiikka-kurssin käyneenä, useampia huomioita. Varsinkin, koska
+kyseisiä lauseita käytettiin niin usein todistusten esittämisessä. Esimerkiksi sen, miten ekspressiivinen
+voi konstruktiivinen logiikka olla, niin olennaisilta vaikuttavat lauseet poisjättäessään? Kuitenkin
+jonkinverran konstruktiiviseen logiikkaan pohjautuviin teoreema todistajiin tutustuneena, voi huomata
+miten huomattaviin todistuksiin (esim. [The Four-Color Theorem](http://www.ams.org/notices/200811/tx081101382p.pdf))
+niillä on pystytty.
 
-Kirjassa mainitaan vain kappaleen lopussa lyhyesti, että tätä ohjelmien ja todistusten
-yhteyttä usein kutsutaan myös [Curry-Howard korrespondenssiksi](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence).
-Tätä puuttumista ehdinkin jo hieman ihmettelemään ja perusteluna sen poisjättämiselle
-Harper kertoo mm. sen, että kyseinen termi jättää huomioimatta muiden olennaiset
-kontribuutiot.
+Lisäksi on mielenkiintoista pohtia miten näiden lauseiden epävalidius on johdettu.
+LOEM seuraa selkeästi konstruktiivisen logiikan perusteista. Jos lause voidaan
+osoittaa todeksi vain esittämällä sille todistus ja epätodeksi kumoamalla se,
+ei universaalisti voida sanoa lauseen olevan joko tosi tai epätosi. Esimerkiksi
+[P vs NP](https://en.wikipedia.org/wiki/P_versus_NP_problem) -kysymyksen ei voida sanoa
+olevan tosi tai epätosi, koska sitä ei ole ratkaistu. Tuplanegaatio taas on aluksi
+hieman hankalampi. Klassisessa logiikassa sen validius on selkeä: jos epätosi on epätosi,
+on se tosi. Tämä seuraa klassisen logiikan totuuden binäärisestä luonteesta. Konstruktiivisesti
+~ (~ A) taas vastaisi kutakuinkin seuraavaa: meillä on kumous sille, että A:lle on kumous.
+Tästä ei siis seuraa, että A on tosi, vaan ainoastaan että A:ta ei voida kiistää.
+Tästä seuraa myös mielenkiintoinen huomio LOEM kannalta: konstruktiivinen logiikka ei hyväksy sitä
+universaalisti, mutta se ei myöskään kiistä sitä! Ts. ~ (~ (A\\/~A) pätee konstruktiivisessa logiikassa.
 
-Kappale täydentää mukavasti omaa tietämystä, sillä olen usein kuullut siinä
-käytetyistä termeistä, mutta itse niiden sisältöä en ollut vielä juurikaan
-käsitellyt. Samalla selkenee huomattavasti esim. Coqin ja vastaavien
-teoreema todistajien taustalla oleva toimintalogiikka.
+Tässä vaiheessa voidaan myös ymmärtää esittelyn termi "logiikkaa kuin ihmiset merkitsisivät".
+Nimittäin konstruktiivisessa logiikassa ihmisten tekemät todistukset ovat se, mikä merkitsee.
+Toisin kuin klassisessa logiikassa, jossa "jumalan mielen logiikkana" voimme aina tietää, että
+väitteelle on olemassa todistus tai kumous, vaikka sitä emme itse osaisikaan näyttää.
 
-Seuraavaksi [klassinen logiikka](12-07-2020-klassinen-logiikka.md).
+Käsitellään seuraavaksi konstruktiivisen logiikan ja ohjelmointikielet yhdistävä
+[propositiot tyyppinä](28-07-2020-propositiot-tyyppinä.md) -prinsiippi.
