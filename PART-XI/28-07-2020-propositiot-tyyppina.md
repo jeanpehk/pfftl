@@ -10,8 +10,8 @@ yhteys on ohjelmointikielten teorian kivijalka, joka paljastaa syvän
 yhteyden laskennan ja päättelyn välillä.
 
 Konkreettisena esimerkkinä tästä yhteydestä voidaan esittää
-implikaatio funktio tyyppinä, konjunktio [product tyyppinä](04-07-2020-product-tyypit.md)
-ja disjunktio [sum tyyppinä](04-07-2020-sum-tyypit.md).
+implikaatio funktio tyyppinä, konjunktio [product tyyppinä](../PART-IV/04-07-2020-product-tyypit.md)
+ja disjunktio [sum tyyppinä](../PART-IV/04-07-2020-sum-tyypit.md).
 Tämän yhdistämisen seurauksia voidaan nähdä
 myös esimerkiksi teoreema todistajissa, joissa propositioita voidaan
 todistaa ja formalisoida ohjelmien avulla.
