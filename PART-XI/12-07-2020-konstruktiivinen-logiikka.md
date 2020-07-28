@@ -12,7 +12,7 @@ selkeän yksinkertaisesti, kuin normaalisti on klassisen logiikan kautta totuttu
 Konstruktiivisessa logiikassa nimittäin on lause tosi tasan silloin kuin sille on todistus,
 ja epätosi silloin kun sille on kumous (refutation).
 Tällä yksinkertaisella ja intuitiivisella ajatuksella on useampia mielenkiintoisia seurauksia.
-Esimerkiksi klassisessa logiikassa yleiset law of excluded middle (LOEM, A \\/ ~ A) ja negaation eliminaatio
+Esimerkiksi klassisessa logiikassa yleiset law of excluded middle (LEM, A \\/ ~ A) ja negaation eliminaatio
 (~ (~ A) = A) eivät konstruktiivisessa logiikassa ole valideja.
 
 Tämä aiheuttaa, vasta yliopiston Logiikka-kurssin käyneenä, useampia huomioita. Varsinkin, koska
@@ -23,7 +23,7 @@ miten huomattaviin todistuksiin (esim. [The Four-Color Theorem](http://www.ams.o
 niillä on pystytty.
 
 Lisäksi on mielenkiintoista pohtia miten näiden lauseiden epävalidius on johdettu.
-LOEM seuraa selkeästi konstruktiivisen logiikan perusteista. Jos lause voidaan
+LEM seuraa selkeästi konstruktiivisen logiikan perusteista. Jos lause voidaan
 osoittaa todeksi vain esittämällä sille todistus ja epätodeksi kumoamalla se,
 ei universaalisti voida sanoa lauseen olevan joko tosi tai epätosi. Esimerkiksi
 [P vs NP](https://en.wikipedia.org/wiki/P_versus_NP_problem) -kysymyksen ei voida sanoa
@@ -32,7 +32,7 @@ hieman hankalampi. Klassisessa logiikassa sen validius on selkeä: jos epätosi 
 on se tosi. Tämä seuraa klassisen logiikan totuuden binäärisestä luonteesta. Konstruktiivisesti
 ~ (~ A) taas vastaisi kutakuinkin seuraavaa: meillä on kumous sille, että A:lle on kumous.
 Tästä ei siis seuraa, että A on tosi, vaan ainoastaan että A:ta ei voida kiistää.
-Tästä seuraa myös mielenkiintoinen huomio LOEM kannalta: konstruktiivinen logiikka ei hyväksy sitä
+Tästä seuraa myös mielenkiintoinen huomio LEM kannalta: konstruktiivinen logiikka ei hyväksy sitä
 universaalisti, mutta se ei myöskään kiistä sitä! Ts. ~ (~ (A\\/~A) pätee konstruktiivisessa logiikassa.
 
 Tässä vaiheessa voidaan myös ymmärtää esittelyn termi "logiikkaa kuin ihmiset merkitsisivät".
