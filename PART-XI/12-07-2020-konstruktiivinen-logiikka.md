@@ -40,5 +40,8 @@ Nimittäin konstruktiivisessa logiikassa ihmisten tekemät todistukset ovat se, 
 Toisin kuin klassisessa logiikassa, jossa "jumalan mielen logiikkana" voimme aina tietää, että
 väitteelle on olemassa todistus tai kumous, vaikka sitä emme itse osaisikaan näyttää.
 
+Tiedostossa [koodit/lem.v](koodit/lem.v) on todistus siitä, että LEMiä ei voida kiistää
+konstruktiivisessa logiikassa.
+
 Käsitellään seuraavaksi konstruktiivisen logiikan ja ohjelmointikielet yhdistävä
 [propositiot tyyppinä](28-07-2020-propositiot-tyyppina.md) -prinsiippi.
