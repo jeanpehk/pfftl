@@ -16,10 +16,15 @@ on resumen paluupiste. Korutiinin aloittaakseen tulee vain määritellä rutiini
 siten, että kun se luovuttaa kontrollin rutiinille r2, aloitetaan se tilalla, joka
 saatiin rutiinia r1 suoritettaessa.
 
+Selkokielisemmin korutiineilla siis käytännössä voidaan suoritusta tehdä kahdella rutiinilla vuorotellen,
+edellisen suorituksen jättämästä tilasta jatkamalla.
+
 Huomattavinta itselle korutiineissa oli tilan käsite. Tämä siksi, että tilaa käsiteltiin
 vain yhtenä instanssina, jota "kuljetetaan" jatkuvasti korutiinien mukana. Toki tila
 voi muuttua jatkuvasti (eihän tilan käsitettä muuten tarvittaisikaan), mutta tässä ei kuitenkaan
-jatkuvasti sotketa monta erillistä tilaa sekaisin tai hypitä tilasta toiseen.
+jatkuvasti sotketa monta erillistä tilaa sekaisin tai hypitä tilasta toiseen. Tältä osin
+korutiinit muistuttavat hieman esimerkiksi Haskelin State Monadia useammalla suorittajalla
+toteutettuna.
 
 Tiedostosta [koodit/Cor.hs](koodit/Cor.hs) löytyy koodiesimerkkejä korutiineista.
 
