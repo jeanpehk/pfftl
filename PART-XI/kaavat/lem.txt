@@ -29,4 +29,7 @@ LEM: {} |- (A \/ ~A)
 (A \/ ~A)
 
 Nyt molemmat oletukset 1 ja 2 on saatu eliminoitua ristiriitojen avulla, joten tuloksena on A \/ ~A ilman oletuksia,
-mikä tulikin osoittaa.
+mikä tulikin osoittaa. Olennaisesti väitteen osoittamiseen tarvitaan negaation eliminointia oletuksen ~(A \/ ~A)
+kääntämiseen tavoitteeksi A \/ ~A oletuksen virheellisyyden osoittamisen jälkeen. Lisäksi tulee olla mahdollisuus
+olettaa että A tai ~A on tosi, jotta ristiriita ylipäänsä voidaan johtaa. Näin ollen on selvää, että vastaava
+todistus ei toimi konstruktiivisessa logiikassa, jossa molemmat ominaisuudet puuttuvat.
