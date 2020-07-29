@@ -1,7 +1,7 @@
 # Pattern matching
 
-Pattern matchingilla voidaan kirjassa esitettyjen [product-tyyppien](04-07-2020-product-tyypit.md)
-ja [sum-tyyppien](04-07-2020-sum-tyypit.md) eliminoinnit yleistää "match" operaattorilla.
+Pattern matchingilla voidaan kirjassa esitettyjen [product tyyppien](04-07-2020-product-tyypit.md)
+ja [sum tyyppien](04-07-2020-sum-tyypit.md) eliminoinnit yleistää "match" operaattorilla.
 Argumenttina matchille annetaan lauseke ja joukko sääntöjä, johon sitä verrataan.
 Suoritettava lauseke valitaan valitsemalla ensimmäinen sääntö, joka vastaa argumenttina olevan
 lausekkeen rakennetta.
