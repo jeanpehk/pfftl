@@ -15,4 +15,4 @@ päättelyä lausekkeille, jotka eivät ole valmiita (evaluoituvat
 lopulliseen arvoon).
 
 Tämän ollessa viimeinen kirjan yksittäisestä kappaleesta tehtävä muistiinpano,
-kootaan vielä ajatuksia [loppukatsauksessa](19-07-2020-loppukatsaus.md)
+kootaan vielä ajatuksia [loppukatsauksessa](29-07-2020-loppukatsaus.md)
