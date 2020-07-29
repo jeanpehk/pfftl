@@ -18,4 +18,7 @@ laajempi kehys, johon myös klassinen logiikka voidaan tarvittaessa asettaa. Sam
 erotella todistukset niiden vahvuuden mukaan (tarvittiinko todistuksessa esimerkiksi klassisen
 logiikan aksioomia vai ei).
 
+Tiedostossa [kaavat/lem.txt](kaavat/lem.txt) on vielä todistus LEMin ja negaation
+eliminoinnin validiudesta klassisessa propositiologiikassa.
+
 Seuraavaksi PART-XII ja [symbolit](../PART-XII/12-07-2020-symbolit.md).

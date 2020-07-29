@@ -1,0 +1,32 @@
+Osoitetaan, että LEM ja negaation eliminaatio ovat valideja propositiologiikassa.
+Päättelyssä noudatettu propositiologiikan luonnollisen päättelyn sääntöjä.
+
+Negaation eliminaatio seuraa suoraan propositiologiikan säännöistä:
+
+~~A
+---
+A
+
+Käytetään nyt tätä apuna LEMin osoittamiseen:
+
+LEM: {} |- (A \/ ~A)
+
+  1
+[A]
+--------- (disjunktion tuonti)             2
+(A \/ ~A)                       [~(A \/ ~A)]
+-------------------------------------------- (konjunktion tuonti)
+(A \/ ~A) /\ ~(A \/ ~A)
+----------------------- (ristiriidan eliminointi, voidaan poistaa oletus 1 eli A ja saadaan ~A)
+~A
+--------- (disjunktion tuonti)             2
+(A \/ ~A)                       [~(A \/ ~A)]
+-------------------------------------------- (konjunktion tuonti)
+(A \/ ~A) /\ ~(A \/ ~A)
+----------------------- (ristiriidan eliminointi, voidaan poistaa oletus 2 eli ~(A \/ ~A) ja saadaan ~~(A \/ ~A))
+~~(A \/ ~A)
+----------- (negaation eliminointi)
+(A \/ ~A)
+
+Nyt molemmat oletukset 1 ja 2 on saatu eliminoitua ristiriitojen avulla, joten tuloksena on A \/ ~A ilman oletuksia,
+mikä tulikin osoittaa.
