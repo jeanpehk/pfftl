@@ -12,7 +12,7 @@ pyrkiä vastaanottamaan viesti sekä lähettää kuittaus lähettäjälle. Lähe
 tulee vastaanottaa kuittaus ennen kuin se voi jatkaa toimintaansa.
 
 Voidaan huomata, että synkroninen kommunikaatio vastaa tapaa, jolla esimerkiksi
-suuri osa www-protokollista on toteutettu. Etuna siinä on kommunikaation
+suuri osa tietoverkko protokollista on toteutettu. Etuna siinä on kommunikaation
 luotettavuus: viestien vastaanottaminen tulee varmistaa eikä siten
 esimerkiksi huonosta yhteydestä riippuvat ongelmat aiheuta niin paljoa ongelmia.
 
