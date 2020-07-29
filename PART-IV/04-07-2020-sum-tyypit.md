@@ -1,9 +1,9 @@
-# Sum-tyypit
+# Sum tyypit
 
-Myös sum-tyypit voidaan jakaa [product-tyyppien](04-07-2020-product-tyypit.md) tapaisesti
-nullary- ja binäärisummiin sekä rajoitettuihin summiin. Nullarya summaa vastaa määritelmissä
+Myös sum tyypit voidaan jakaa [product tyyppien](04-07-2020-product-tyypit.md) tapaisesti
+nullary ja binääri summiin sekä rajoitettuihin summiin. Nullarya summaa vastaa määritelmissä
 tyyppi void ja binääriä sum(t1;t2). Void vastaa tyyppiä, jolla ei ole konstruktoria, joten sille
-myöskään ei ole määritelty muotoa, jolla sen voisi muodostaa. Binäärisumma taas sisältää joko
+myöskään ei ole määritelty muotoa, jolla sen voisi muodostaa. Binääri summa taas sisältää joko
 tyypin t1 tai t2, joten sen muodostukseen on konstruktorit. Binääristä summasta arvo saadaan
 ulos case analyysillä.
 
