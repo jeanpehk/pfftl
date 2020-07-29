@@ -12,7 +12,8 @@ määrittelyyn riitä?
 Toki ohjelmien oikeellisuuden määrittäminen on olennainen
 perusta, jolle koko kielen ja sen järjellisyyden rakennamme.
 Kuitenkin ekvivalenssin käsitteen puute riistää tärkeän näkökulman:
-eri ohjelmien keskinäisen vertailun (tai konstruktiivisen logiikan mukaisesti:
+eri ohjelmien keskinäisen vertailun
+(tai [konstruktiivisen logiikan](../PART-XI/12-07-2020-konstruktiivinen-logiikka.md) mukaisesti:
 kahden todistuksen vertailun). Vaikka esitellyt dynamiikat ja
 niiden tyyppisäännöt auttavatkin luomaan oikeellisia ohjelmia,
 eivät ne ole kaiken kattavia. Ekvivalenssin käsite tuo lisänäkökulman,
