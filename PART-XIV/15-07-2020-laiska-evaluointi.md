@@ -12,7 +12,7 @@ maksimissaan kerran.
 Tässä kohtaa kirjan lukeminen aiheuttaa hieman sekaannuksia.
 Selvennetään ensin erillisesti
 [nimellä kutsumista ja laiskuutta](15-07-2020-nimella-kutsumisesta-ja-laiskuudesta.md),
-jossa päädytään johtopäätökseen, että nimellä kutsuminen
+jossa päädytään seuraavaan johtopäätökseen: nimellä kutsuminen
 on osa laiskaa evaluointia (laskennan siirtäminen), mutta
 ei koko kuva (puuttuu takuu, että laskenta suoritetaan vain kerran).
 Tämän jälkeen kuitenkin kirjassa esitetään, että laiskat
