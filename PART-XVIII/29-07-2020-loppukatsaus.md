@@ -35,4 +35,4 @@ syventämään ymmärrystä monista asioista ja varsinkin
 [konstruktiivista logiikkaa](../PART-XI/12-07-2020-konstruktiivinen-logiikka.md),
 tyyppimuuttujia ja funktioita käsittelevät kappaleet oli hyvin kinnostavia.
 
-Paluu [READMEn](../README.md) tai alkuun [ensiajatuksiin](../PART-I/ensiajatukset.md).
+Paluu [READMEn](../README.md) tai alkuun [ensiajatuksiin](../PART-I/21-06-2020-ensiajatukset.md).
