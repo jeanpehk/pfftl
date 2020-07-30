@@ -1,13 +1,21 @@
 # Practical Foundations for Programming Languages (Harper).
 
-Muistiinpanoja, joita tehty kirjan lukemisen aikana.
-Muistiinpanot jaoteltu kirjan osien mukaisesti alakansioihin.
+Muistiinpanoja, joita tehty kirjan lukemisen aikana ja jotka on jaoteltuna kirjan osien mukaisesti alakansioihin.
 Muistiinpanoissa mainitut viittaukset 'kirjaan' tarkoittavat otsikon kirjaa.
 
-Lisäksi tiedostossa count\_words.py yksinkertainen ohjelma sanamäärään laskuun (suuntaa antava).
+Tiedostossa count\_words.py on yksinkertainen suuntaa antava ohjelma sanamäärään laskuun.
+Ohjelmassa otettu huomioon .txt ja .md päätteiset tiedostot eli koodiesimerkit on niistä
+jätetty pois.
 
-Muistiinpanot on tehty lukemalla kirjaa järjestyksessä, joten myös muistiinpanojen läpikäynti
+Muutamia huomioita muistiinpanoista:
+- Muistiinpanot on tehty lukemalla kirjaa järjestyksessä, joten myös muistiinpanojen läpikäynti
 on useimmiten järkevintä järjestyksessä vaikka osa muistiinpanoista onkin täysin itsenäisiä.
-Muistiinpanojen lopussa on linkki seuraavaksi käsiteltyyn muistiinpanoon.
+- Muistiinpanojen lopussa on aina linkki seuraavaksi käsiteltyyn muistiinpanoon.
+- Suurin osa muistiinpanoista tehty ensimmäisen läpiluvun aikana.
+- Osaa muistiinpanoista on ensimmäisen läpiluvun jälkeen täydennetty sen pohjalta,
+missä on havaittu virheitä tai haluttu pohtia tiettyä asiaa tarkemmin.
+- Muistiinpanot alkavat päivämäärällä. Tämä päivämäärä viittaa päivään, jolloin muistiinpanon ensimmäinen
+versio on tehty. Jos tämän lisäksi on tehty päivityksiä, näkyy niiden aikataulut committien kautta.
+- Saatu sanamäärä yllä mainitulla ohjelmalla: 10186.
 
 Ensimmäinen muistiinpano on: [ensiajatukset](PART-I/21-06-2020-ensiajatukset.md).
