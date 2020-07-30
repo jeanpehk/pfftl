@@ -16,6 +16,8 @@ on useimmiten järkevintä järjestyksessä vaikka osa muistiinpanoista onkin t�
 missä on havaittu virheitä tai haluttu pohtia tiettyä asiaa tarkemmin.
 - Muistiinpanot alkavat päivämäärällä. Tämä päivämäärä viittaa päivään, jolloin muistiinpanon ensimmäinen
 versio on tehty. Jos tämän lisäksi on tehty päivityksiä, näkyy niiden aikataulut committien kautta.
+- Kirjan termit on usein itse (huonosti) suomennettuja, joten suomennoksen ensimmäisen käytön yhteydessä pyritty
+mainitsemaan kirjassa käytetty englanninkielinen termi suluissa selkeyden vuoksi.
 - Saatu sanamäärä yllä mainitulla ohjelmalla: 10186.
 
 Ensimmäinen muistiinpano on: [ensiajatukset](PART-I/21-06-2020-ensiajatukset.md).
