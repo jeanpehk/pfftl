@@ -3,7 +3,7 @@
 Muistiinpanoja, joita tehty kirjan lukemisen aikana ja jotka on jaoteltuna kirjan osien mukaisesti alakansioihin.
 Muistiinpanoissa mainitut viittaukset 'kirjaan' tarkoittavat otsikon kirjaa.
 
-Tiedostossa count\_words.py on yksinkertainen suuntaa antava ohjelma sanamäärään laskuun.
+Tiedostossa count\_words.py on yksinkertainen suuntaa antava ohjelma sanamäärän laskuun.
 Ohjelmassa otettu huomioon .txt ja .md päätteiset tiedostot tiedostorakenteen alakansioissa eli
 koodiesimerkit ja tämä tiedosto on niistä jätetty pois.
 
