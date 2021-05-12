@@ -1,7 +1,7 @@
-# Practical Foundations for Programming Languages (Harper).
+# Practical Foundations for Programming Languages (Robert Harper).
 
 Muistiinpanoja, joita tehty kirjan lukemisen aikana ja jotka on jaoteltuna kirjan osien mukaisesti alakansioihin.
-Muistiinpanoissa mainitut viittaukset 'kirjaan' tarkoittavat otsikon kirjaa.
+Muistiinpanoissa mainitut viittaukset *kirjaan* tarkoittavat otsikon kirjaa. Tehty alunperin *Ohjelmointikielten periaatteet* -kurssille Jyväskylän yliopistossa.
 
 Tiedostossa count\_words.py on yksinkertainen suuntaa antava ohjelma sanamäärän laskuun.
 Ohjelmassa otettu huomioon .txt ja .md päätteiset tiedostot tiedostorakenteen alakansioissa eli
